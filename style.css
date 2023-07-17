@@ -177,6 +177,7 @@ main{
 .feature-img{
     height: 90%;
     margin-left: 0px;
+    
 
 }
 .ten-years-badge p{
@@ -216,6 +217,7 @@ footer{
         flex-direction: column;
     }
     .feature-img .img{
+        flex-direction: column;
         width: 60%;
         margin-left: 0;
     }
