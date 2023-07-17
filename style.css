@@ -189,7 +189,7 @@ main{
 
 }
 footer{
-    background-color: #f2ab3ae7;
+    background-color: #68e389e7;
     margin:0 200px;
     text-align: center;
     justify-items: center;
@@ -199,7 +199,7 @@ footer{
 }
 
 /* responsive media queries */
-@media screen and (max-width:576px) {
+@media screen and (max-width:580px) {
     header{
         padding: 30px;
     }
@@ -213,7 +213,7 @@ footer{
         gap: 20px;
     }
 
-    .feature-img{
+    .features img{
         flex-direction: column;
     }
     .feature-img .img{
@@ -240,7 +240,7 @@ footer{
 
 
 }
-@media screen and (min-width:576px) and (max-width:960px) {
+@media screen and (min-width:580px) and (max-width:960px) {
     nav, 
     .features-img 
     .facts-card-container ,
