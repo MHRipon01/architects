@@ -199,11 +199,13 @@ footer{
 }
 
 /* responsive media queries */
-@media screen and (max-width:580px) {
+@media screen and (min-width:50px) and (max-width:579px) {
     header{
         padding: 30px;
+        background-color: aqua;
     }
     nav , 
+    .features ,
     .sponsors-img-container
     {
         flex-direction: column;
@@ -213,12 +215,18 @@ footer{
         gap: 20px;
     }
 
+
     .features img{
         flex-direction: column;
+
     }
-    .feature-img .img{
-        flex-direction: column;
-        width: 60%;
+
+   .feature-img{
+    width: 80vw;
+}
+    .feature-img img{
+        /* flex-direction: column; */
+        width: 100%;
         margin-left: 0;
     }
     .ten-years-badge{
